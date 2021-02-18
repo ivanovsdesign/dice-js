@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+ .header, .container {
+    display: grid;
+    place-items: center;
+}
+
+.dice-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.dice {
+    transition: .5s;
+    border-radius: 2em;
+}
+
+.winner {
+    background-color: greenyellow;
+}
+
+.dice img{
+    max-width: 15em;
+    padding: 2em;
+    margin: 1em;
+}
+
+.play-btn {
+    background: none;
+    border: .2em solid;
+    font-size: 1.5em;
+    border-radius: .3em;
+    outline: thin;
+    transition-duration: 1s;
+    margin: 1.5em;
+}
+
+.play-btn:hover {
+    background-color: greenyellow;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.play-btn:active {
+    background-color: yellow;
+    transition-duration: .3s;
+}
